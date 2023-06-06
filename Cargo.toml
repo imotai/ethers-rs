@@ -104,7 +104,7 @@ spki = { version = "0.7.2", default-features = false }
 
 # serde
 serde = "1.0"
-serde_json = "1.0"
+serde_json= {git="https://github.com/serde-rs/json", rev="9eb66da7e0a63ebe0d1bba9d6eab92869cf89fb7"}
 
 # macros
 proc-macro2 = "1.0"
